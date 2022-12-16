@@ -18,11 +18,12 @@ a{
     display: flex;
     flex-direction:column;
     height: 100vh;
+    justify-content: space-between;
 }
 header{
     display: flex;
     justify-content: flex-end;
-    padding: 15px;
+    padding: 10px;
 }
 header > nav{
     display: flex;
@@ -36,27 +37,18 @@ header nav a:hover{
     text-decoration: underline;
 }
 .nav-icon{
-    margin-left: 12px;
+    margin-left:  8px;
+    margin-right: 8px;
 }
 .nav-button{
-    padding: 10px 20px;
+    padding:9px 23px;
     border-radius: 4px;
     border: none;
     background: var(--nav-button-color);
     color: var(--nav-button-font-color);
-    margin-left: 12px;
+    margin-right: 6px;
     cursor: pointer;
 }
-/* section{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5vh;
-    
+section{
+    align-self: center;
 }
-section input{
-    width:40vw;
-    height:7vh;
-    border-radius: 20px;
-    border-color: var(--search-input);
-} */
